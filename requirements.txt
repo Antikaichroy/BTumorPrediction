@@ -1,9 +1,11 @@
 tensorflow
 pillow
 numpy
-opencv-python-headless
+opencv-python
 matplotlib
 scikit-learn
 seaborn
 streamlit
+
+
 
