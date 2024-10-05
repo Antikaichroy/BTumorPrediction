@@ -5,3 +5,5 @@ opencv-python-headless
 matplotlib
 scikit-learn
 seaborn
+streamlit
+
