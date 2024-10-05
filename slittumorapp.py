@@ -1,11 +1,11 @@
-import streamlit as st
+:import streamlit as st
 import numpy as np
 import cv2
 from tensorflow import keras
 from collections import Counter
 
 # Load your Keras model
-MODEL = keras.models.load_model('tumorv4.keras')  # Use raw string to handle backslashes
+MODEL = keras.models.load_model('E://tumorv4.keras')  # Use raw string to handle backslashes
 
 # Define your class labels (update these according to your model)
 CLASS = ['Glioma Tumor', 'Meningioma Tumor', 'No Tumor', 'Pituitary Tumor']  # Replace with your actual class labels
