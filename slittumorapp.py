@@ -5,7 +5,7 @@ from tensorflow import keras
 from collections import Counter
 
 # Load your Keras model
-MODEL = keras.models.load_model(r'C:\models\tumorv4.keras')  # Use raw string to handle backslashes
+MODEL = keras.models.load_model(r'tumorv4.keras')  # Use raw string to handle backslashes
 
 # Define your class labels (update these according to your model)
 CLASS = ['Glioma Tumor', 'Meningioma Tumor', 'No Tumor', 'Pituitary Tumor']  # Replace with your actual class labels
